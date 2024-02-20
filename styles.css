@@ -115,3 +115,18 @@ h1 {
   font-size: 1.6rem;  
   transition: opacity 0.2s ease, bottom 0.6s ease;
 }
+
+
+@media (max-width: 425px) {
+  .board {
+    width: 380px;
+    height: 380px;
+  }
+}
+
+@media (max-width: 375px) {
+  .board {
+    width: 300px;
+    height: 300px;
+  }
+}
