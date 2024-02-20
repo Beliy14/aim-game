@@ -53,7 +53,7 @@ function setTime(value) {
 
 function finishGame() {
     board.innerHTML = `<h1>Cчёт: <span class="primary">${score}</span></h1>`
-    onloadGame.style.bottom = '300px'
+    onloadGame.style.bottom = '200px'
     timeEl.parentNode.classList.add('hide')
 }
 
